@@ -11,6 +11,7 @@ public class Restaurant {
 		
 		waitress.addOrder(starter);
 		waitress.addOrder(main);
+		waitress.haveBreak();
 		waitress.giveChefOrders();
 	}
 }
