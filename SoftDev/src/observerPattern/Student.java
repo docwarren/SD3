@@ -1,3 +1,4 @@
+package observerPattern;
 import javax.swing.JOptionPane;
 
 public class Student implements Observer, Display{

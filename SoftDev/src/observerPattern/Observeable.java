@@ -1,3 +1,4 @@
+package observerPattern;
 
 public interface Observeable {
 	public void registerObserver(Student a);

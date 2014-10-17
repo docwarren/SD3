@@ -1,3 +1,4 @@
+package observerPattern;
 import java.util.*;
 
 public class Lecturer implements Observeable{
