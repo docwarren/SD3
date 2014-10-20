@@ -33,14 +33,12 @@ public class Student implements Observer, Display{
 	}
 
 
-	@Override
 	public void update(String theNews) {
 		// TODO Auto-generated method stub
 		this.updates += theNews + "\n\t";
 		display();
 	}
 
-	@Override
 	public void display() {
 		// TODO Auto-generated method stub
 		String news = this.name + ":\n\t" + this.updates;

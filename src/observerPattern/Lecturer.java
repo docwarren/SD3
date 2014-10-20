@@ -27,19 +27,16 @@ public class Lecturer implements Observeable{
 		students = new ArrayList<Student>();
 	}
 
-	@Override
 	public void registerObserver(Student a) {
 		// TODO Auto-generated method stub
 		this.students.add(a);
 	}
 
-	@Override
 	public void removeObserver(Student a) {
 		// TODO Auto-generated method stub
 		this.students.remove(a);
 	}
 
-	@Override
 	public void notifyObservers() {
 		// TODO Auto-generated method stub
 		for(Student a: this.students){
